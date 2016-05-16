@@ -1,6 +1,9 @@
 Blackhairre
 =====
 
+#What it's not here yet?!
+Blackhairre is a work in progress and is a planned release by 20/5/16. Sorry to keep you waiting.
+
 #About
 Simple Operating System for the Raspberry Pi 0, 1, 2 and 3 (any models). Based off Raspbian and Debian.
 
