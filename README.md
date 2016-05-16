@@ -10,6 +10,7 @@ Simple Operating System for the Raspberry Pi 0, 1, 2 and 3 (any models). Based o
 All packages that can be installed on Blackhairre need to be from the Raspbian software repository or the Blackhairre software repository (in progress).
 
 #Installation
+
 ##On Linux
 Run `wget https://raw.githubusercontent.com/amicolode/blackhairre/master/builds/blackhairre-latest.img`
 
@@ -28,18 +29,18 @@ If your SD card shows up more than once in the output of df due to having multip
 Run `dd bs=4M if=blackhairre-latest.img of=/dev/sdd`. Replace `sdd` with the name of the whole SD card.
 
 ##On Windows
-
 Download the image from https://raw.githubusercontent.com/amicolode/blackhairre/master/builds/blackhairre-latest.img
 
 Insert the SD card into your SD card reader and check what drive letter it was assigned. You can easily see the drive letter (for example G:) by looking in the left column of Windows Explorer. You can use the SD Card slot (if you have one) or a cheap Adapter in a USB slot.
 
-Download the Win32DiskImager utility (it is also a zip file). You can run this from a USB drive.
+Download the Win32DiskImager utility. You can run this from a USB drive.
 
 Extract the executable from the zip file and run the Win32DiskImager utility; you may need to run the utility as Administrator! 
 
 Right-click on the file, and select 'Run as Administrator'
 
 Select the blackhairre image file.
+
 Select the drive letter of the SD card in the device box. Be careful to select the correct drive; if you get the wrong one you can destroy your data on the computer's hard disk! If you are using an SD Card slot in your computer (if you have one) and can't see the drive in the Win32DiskImager window, try using a cheap Adapter in a USB slot.
 
 Click Write and wait for the write to complete.
