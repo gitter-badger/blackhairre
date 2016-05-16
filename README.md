@@ -2,7 +2,9 @@ Blackhairre
 =====
 
 #About
-Simple Operating System for ARM devices. Based off Raspbian and Debian.
+Simple Operating System for the Raspberry Pi. Based off Raspbian and Debian.
+
+All packages that can be installed on Blackhairre need to be from the Raspbian software repository or the Blackhairre software repository (in progress).
 
 #Installation
 ##On Linux
@@ -43,7 +45,7 @@ Exit the imager and eject the SD card.
 
 Plug the SD card into the raspberry pi.
 
-##What we used
+#What I used
 NOOBS by the Raspberry Pi Foundation at https://www.raspberrypi.org/downloads/noobs/ for the core OS.
 
 XFCE at http://www.xfce.org for the desktop environment
