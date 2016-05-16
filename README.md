@@ -2,7 +2,7 @@ Blackhairre
 =====
 
 #About
-Simple Operating System for the Raspberry Pi. Based off Raspbian and Debian.
+Simple Operating System for the Raspberry Pi 0, 1, 2 and 3 (any models). Based off Raspbian and Debian.
 
 All packages that can be installed on Blackhairre need to be from the Raspbian software repository or the Blackhairre software repository (in progress).
 
