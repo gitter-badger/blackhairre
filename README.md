@@ -47,7 +47,7 @@ Click Write and wait for the write to complete.
 
 Exit the imager and eject the SD card.
 
-Plug the SD card into the raspberry pi.
+Plug the SD card into the Raspberry Pi.
 
 #What I used
 NOOBS by the Raspberry Pi Foundation at https://www.raspberrypi.org/downloads/noobs/ for the core OS.
