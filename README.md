@@ -24,17 +24,30 @@ Run `dd bs=4M if=blackhairre-latest.img of=/dev/sdd`. Replace `sdd` with the nam
 
 ##On Windows
 
-Go to https://raw.githubusercontent.com/amicolode/blackhairre/master/builds/blackhairre-latest.img to download the image.
+Download the image from https://raw.githubusercontent.com/amicolode/blackhairre/master/builds/blackhairre-latest.img
 
-If your computer has a slot for SD cards, insert the card. If not, insert the card into an SD card reader, then connect the reader to your computer.
+Insert the SD card into your SD card reader and check what drive letter it was assigned. You can easily see the drive letter (for example G:) by looking in the left column of Windows Explorer. You can use the SD Card slot (if you have one) or a cheap Adapter in a USB slot.
 
-Open your file manager and find out the letter the drive you inserted is. Remember it.
+Download the Win32DiskImager utility (it is also a zip file). You can run this from a USB drive.
 
-Go to http://sourceforge.net/projects/win32diskimager/ and download win32diskimager (Ignore this step if you have win32diskimager installed already)
+Extract the executable from the zip file and run the Win32DiskImager utility; you may need to run the utility as Administrator! 
 
-Run the executable file you just downloaded. Follow the steps to install win32diskimager. (And ignore this step if you have win32diskimager installed already)
+Right-click on the file, and select 'Run as Administrator'
 
+Select the blackhairre image file.
+Select the drive letter of the SD card in the device box. Be careful to select the correct drive; if you get the wrong one you can destroy your data on the computer's hard disk! If you are using an SD Card slot in your computer (if you have one) and can't see the drive in the Win32DiskImager window, try using a cheap Adapter in a USB slot.
 
+Click Write and wait for the write to complete.
 
+Exit the imager and eject the SD card.
+
+Plug the SD card into the raspberry pi.
+
+##What we used
+NOOBS by the Raspberry Pi Foundation at https://www.raspberrypi.org/downloads/noobs/ for the core OS.
+
+XFCE at http://www.xfce.org for the desktop environment
+
+The RPi Easy Setup Guide at http://elinux.org/RPi_Easy_SD_Card_Setup (which is shared under the Creative Commons Attribution-ShareAlike 3.0 Unported license at http://creativecommons.org/licenses/by-sa/3.0/)
 
 
