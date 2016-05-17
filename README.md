@@ -56,6 +56,6 @@ XFCE at http://www.xfce.org for the desktop environment.
 
 The RPi Easy Setup Guide at http://elinux.org/RPi_Easy_SD_Card_Setup (which is shared under the Creative Commons Attribution-ShareAlike 3.0 Unported license at http://creativecommons.org/licenses/by-sa/3.0/).
 
-Flat Adapta at http://gnome-look.org/content/show.php/Flat-Adapta-OSX?content=175987 for the GTK theme.
+Flat Adapta at https://github.com/tista500/Adapta for the GTK theme.
 
 Numix Icons at https://github.com/numixproject/numix-icon-theme-circle for the icon theme.
