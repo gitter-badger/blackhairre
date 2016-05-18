@@ -14,7 +14,7 @@ All packages that can be installed on Blackhairre need to be from the Raspbian s
 ##On Linux
 Open the terminal on your Linux computer.
 
-Run `wget https://raw.githubusercontent.com/amicolode/blackhairre/master/builds/blackhairre-latest.img`.
+Run `wget https://raw.githubusercontent.com/amicolode/blackhairre/master/build/image/blackhairre-latest.img`.
 
 Run `df -h` to see what devices are currently mounted.
 
@@ -31,7 +31,7 @@ If your SD card shows up more than once in the output of df due to having multip
 Run `dd bs=4M if=blackhairre-latest.img of=/dev/sdd`. Replace `sdd` with the name of the whole SD card.
 
 ##On Windows
-Download the image from https://raw.githubusercontent.com/amicolode/blackhairre/master/builds/blackhairre-latest.img
+Download the image from https://raw.githubusercontent.com/amicolode/blackhairre/master/build/image/blackhairre-latest.img
 
 Insert the SD card into your SD card reader and check what drive letter it was assigned. You can easily see the drive letter (for example G:) by looking in the left column of Windows Explorer. You can use the SD Card slot (if you have one) or a cheap Adapter in a USB slot.
 
@@ -56,9 +56,9 @@ Open the terminal on the Raspberry Pi.
 
 Run `mkdir Blackhairre-Installation && cd Blackhairre-Installation`.
 
-Run `wget https://raw.githubusercontent.com/amicolode/blackhairre/master/build/installer/blackhairre-latest-installer.sh`.
+Run `wget https://raw.githubusercontent.com/amicolode/blackhairre/master/build/installer/blackhairre-latest.sh`.
 
-Run `sh blackhairre-latest-installer.sh`
+Run `sh blackhairre-latest.sh`
 
 #What I used
 NOOBS at https://www.raspberrypi.org/downloads/noobs for the core OS.
