@@ -12,7 +12,9 @@ All packages that can be installed on Blackhairre need to be from the Raspbian s
 #Installation
 
 ##On Linux
-Run `wget https://raw.githubusercontent.com/amicolode/blackhairre/master/builds/blackhairre-latest.img`
+Open the terminal on your Linux computer.
+
+Run `wget https://raw.githubusercontent.com/amicolode/blackhairre/master/builds/blackhairre-latest.img`.
 
 Run `df -h` to see what devices are currently mounted.
 
@@ -49,8 +51,17 @@ Exit the imager and eject the SD card.
 
 Plug the SD card into the Raspberry Pi.
 
+##Don't have another computer?
+Open the terminal on the Raspberry Pi.
+
+Run `mkdir Blackhairre-Installation && cd Blackhairre-Installation`.
+
+Run `wget https://raw.githubusercontent.com/amicolode/blackhairre/master/installer/blackhairre-latest.py`.
+
+Run `python3 blackhairre-latest.py`
+
 #What I used
-NOOBS at https://www.raspberrypi.org/downloads/noobs/ for the core OS.
+NOOBS at https://www.raspberrypi.org/downloads/noobs for the core OS.
 
 XFCE at http://www.xfce.org for the desktop environment.
 
