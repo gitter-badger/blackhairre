@@ -56,7 +56,7 @@ Open the terminal on the Raspberry Pi.
 
 Run `mkdir Blackhairre-Installation && cd Blackhairre-Installation`.
 
-Run `wget https://raw.githubusercontent.com/amicolode/blackhairre/master/installer/blackhairre-latest.py`.
+Run `wget https://raw.githubusercontent.com/amicolode/blackhairre/master/installer/blackhairre-latest.sh`.
 
 Run `python3 blackhairre-latest.py`
 
