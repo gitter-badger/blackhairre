@@ -9,6 +9,23 @@ Simple Operating System for the Raspberry Pi 0, 1, 2 and 3 (any models). Based o
 
 All packages that can be installed on Blackhairre need to be from the Raspbian software repository or the Blackhairre software repository (in progress).
 
+#Some Helpful Facts
+When users are added (`adduser <username>`) they are automatically put in the `users` group. This gives the ability of running sudo commands with a password. This can be changed but may cause issues.
+
+The user skeleton directory (`/Users/.skel`) contains all the files that are put in a new users home. The ability to edit these files requires sudo. You can use the command line but it is recommended to use the file manager as root (`sudo thunar`)
+
+Blackhairre is as customisable as any Linux distribution, you can edit themes, icons and basically anything. Just refer the right directories. 
+Some helpful directories and files are:
+`/Users/.skel` - The user skeleton directory.
+`/etc/default/adduser.conf` - The adduser configuration file.
+`/usr/share/themes` - The theme directory.
+`/usr/share/icons` - The icons and mouse directory.
+`/Users/<username>/.ssh` - A users SSH keys and info directory.
+
+I even use Blackhairre for developing apps, software and even this! I just installed Ninja-IDE for coding and GIMP for photo editing (`sudo apt-get update && sudo apt-get install ninja-ide gimp`)
+
+I am going to see if Blackhairre can be in the official NOOBs. Hopefully it will be added.
+
 #Installation
 
 ##On Linux
