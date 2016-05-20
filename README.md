@@ -1,6 +1,8 @@
 Blackhairre
 =====
 
+[![Join the chat at https://gitter.im/amicolode/blackhairre](https://badges.gitter.im/amicolode/blackhairre.svg)](https://gitter.im/amicolode/blackhairre?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 #What it's not here yet?!
 Blackhairre is a work in progress and is a planned release by 20/5/16. Sorry to keep you waiting.
 
